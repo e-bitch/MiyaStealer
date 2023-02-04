@@ -4,3 +4,4 @@ pycryptodome
 win32gui
 zipfile
 time
+psutil
