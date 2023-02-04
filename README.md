@@ -9,6 +9,8 @@
 - Builder
 - Important Files
 - Game Clients
+- Anti Debug
+- Non console
 
 ## Setup
 For dummies just run compile.bat ! (Remember install Python 2.8)
