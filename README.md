@@ -18,4 +18,4 @@ For manual compiling
 
 
 ## This tool is ONLY for Educational Purposes!
-Do not use this code for any illegal activity
+This code was made to demonstrate how easy it can be to get important information from other users with a script.
