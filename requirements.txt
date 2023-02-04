@@ -5,3 +5,5 @@ win32gui
 zipfile
 time
 psutil
+ordered-set
+zstandard
