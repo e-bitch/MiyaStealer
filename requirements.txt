@@ -1,5 +1,4 @@
 pybase64
-requests
 Crypto.Cipher
 pycryptodome
 win32gui
